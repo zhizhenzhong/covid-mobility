@@ -8,8 +8,6 @@ import matplotlib.pyplot as plt
 from datetime import datetime
 
 mobility_data_location = '/home/arrow/safegraph'
-
-
 cbgs = {
     'newyorkcity': ['36047', '36081', '36061', '36005', '36085', '36119', '34003', '34017', '34031', '36079', '36087'],
     'boston': ['25021', '25023', '25025', '25009', '25017', '33015', '33017'],
@@ -17,35 +15,8 @@ cbgs = {
     'miami': ['12086', '12011', '12099'],
     'chicago': ['17031', '17037', '17043', '17063', '17091', '17089', '17093', '17111', '17197'],
     'dallas': ['48085', '48113', '48121', '48139', '48231', '48257', '48397', '48251', '48367', '48439', '48497'],
+    'losangeles':['06037', '06059', '06065', '06071', '06111']
 }
-
-
-
-# newyorkcity = ['36047', '36081', '36061', '36005', '36085', '36119', '34003', '34017', '34031', '36079', '36087']
-# boston = ['25021']
-# seattle = ['53033', '53061', '53053']
-# miami = []
-# chicago = []
-# dallas = []
-
-# df = pd.read_csv('/home/arrow/safegraph/2019/01/01/2019-01-01-social-distancing.csv.gz', compression='gzip', header=0,  quotechar='"', error_bad_lines=False)
-# print(df.iloc[1])
-# # print(df.shape[0])
-# for i in range(df.shape[0]):
-#     # print(i)
-#     src = str(df.iloc[i].origin_census_block_group)
-#     if len(src) < 12:
-#         src = '0' + src
-#     # print(src)
-#     dst_cbgs = json.loads(df.iloc[i].destination_cbgs)
-#     if src in dst_cbgs:
-#         # print(src)
-#         pass
-#     else:
-#         print('error')
-# if df.iloc[1].origin_census_block_group in dst_cbgs:
-#     print(df.iloc[1].origin_census_block_group)
-
 
 def process_mobility(years, months):
     for city in cbgs:
@@ -119,6 +90,6 @@ def process_mobility(years, months):
         df.to_csv(csv_location, index=False)     
 
 years = ['2019']
-months = ['01']
+months = ['10']
 
 process_mobility(years, months)
