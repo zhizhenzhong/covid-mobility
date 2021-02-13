@@ -1,3 +1,10 @@
+######################################
+# this files processes the social distancing data by considering the
+# number of devices that are completely at home within a census block group
+# https://docs.safegraph.com/docs/social-distancing-metrics
+# zhizhenzhong@csail.mit.edu
+######################################
+
 import pandas as pd
 import os 
 from tqdm import tqdm
