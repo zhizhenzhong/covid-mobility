@@ -6,6 +6,6 @@ We use Census Block Group data to get geographical information from United State
 
 The following figures shows the daily mobility change in 6 major US cities before, during the COVID-19 pandemic and beyond.
 
-![alt text](http://https://github.com/zhizhenzhong/covid_mobility/plot/normalized_mobility.png)
+![alt text](http://github.com/zhizhenzhong/covid_mobility/plot/normalized_mobility.png)
 
 Copyright: zhizhenzhong [at] csail [dot] mit [dot] edu
