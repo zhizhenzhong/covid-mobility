@@ -4,4 +4,4 @@ In this repo, we analyze the "Social Distancing Metrics v2.1", which shows the a
 
 We use Census Block Group data to get geographical information from United States Department of Agriculture (https://www.nrcs.usda.gov/wps/portal/n rcs/detail/national/home/?cid=nrcs143_013697)
 
-Copyright: zhizhenz [at] mit [dot] edu
+Copyright: zhizhenzhong [at] csail [dot] mit [dot] edu
