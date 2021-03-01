@@ -8,4 +8,8 @@ The following figures shows the daily mobility change in 7 major US cities befor
 
 ![alt text](https://github.com/zhizhenzhong/covid_mobility/blob/main/plot/normalized_mobility.png)
 
+The mobility analysis is used for paper: 
+
+Yiting Xia, Ying Zhang, Zhizhen Zhong, Guanqing Yan, Chiun Lin Lim, Satyajeet Singh Ahuja, Soshant Bali, Alexander Nikolaidis, Kimia Ghobadi, Manya Ghobadi, "A Social Network Under Social Distancing: Risk-Driven Network Management During COVID-19 and Beyond", NSDI 2021. https://www.usenix.org/conference/nsdi21/presentation/xia
+
 Copyright: zhizhenzhong [at] csail [dot] mit [dot] edu
