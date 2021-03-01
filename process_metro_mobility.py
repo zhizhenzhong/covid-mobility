@@ -96,7 +96,7 @@ def process_mobility(years, months):
         df = pd.DataFrame.from_dict(mobility)
         df.to_csv(csv_location, index=False)     
 
-years = ['2019']
-months = ['10']
+years = ['2021']
+months = ['02']
 
 process_mobility(years, months)
